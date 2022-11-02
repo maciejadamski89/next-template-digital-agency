@@ -1,8 +1,4 @@
 import React from "react";
-import { motion, AnimatePresence } from "framer-motion";
-const init = { opacity: 0, x: -50 };
-const animate = { opacity: 1, x: 0 };
-const duration = { duration: 0.5 };
 
 export default function hero() {
   return (
